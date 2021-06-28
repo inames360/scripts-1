@@ -2,10 +2,6 @@
 50 23 */3 * * find /scripts/logs -name '*.log' | grep -v 'sharecodeCollection' | xargs rm -rf
 
 ##############短期活动##############
-# 省钱大赢家-翻翻乐
-1 0,8 * * * node /scripts/jd_sqffl.js >> /scripts/logs/jd_sqffl.log 2>&1
-# 省钱大赢家-获取邀请码
-0,2 0 * * * node /scripts/jd_sq.js >> /scripts/logs/jd_sq.log 2>&1
 # 东东电竞经理
 15 10 * * * node /scripts/jd_Elecsport.js >> /scripts/logs/jd_mgold.log 2>&1
 # 天降红包
@@ -34,8 +30,6 @@
 0 */4 * * * node /scripts/jd_mohe.js >> /scripts/logs/jd_mohe.log 2>&1
 #女装盲盒 
 35 1,22 * * * node /scripts/jd_nzmh.js >> /scripts/logs/jd_nzmh.log 2>&1
-#京享值pk
-15 0,6,13,19,21 * * * node /scripts/jd_pk.js >> /scripts/logs/jd_pk.log 2>&1
 #东东泡泡大战
 1 0 * * * node /scripts/jd_ppdz.js >> /scripts/logs/jd_ppdz.log 2>&1
 #星系牧场
@@ -193,8 +187,6 @@
 # 0,1,2 0 * * * node /scripts/jd_cash_exchange.js >> /scripts/logs/jd_cash_exchange.log 2>&1
 # CK检测
 # 0 * * * node /scripts/jd_ckcheck.js >> /scripts/logs/jd_cash_exchange.log 2>&1
-#省钱大赢家
-#0,2 0 * * * node /scripts/jd_sqdyj.js >> /scripts/logs/jd_sqdyj.log 2>&1
 #宝洁消消乐
 #18 9 1-18 6 * node /scripts/jd_zooBaojiexiaoxiaole.js >> /scripts/logs/jd_zooBaojiexiaoxiaole.log 2>&1
 #纯开卡 GNC组队瓜分京豆
