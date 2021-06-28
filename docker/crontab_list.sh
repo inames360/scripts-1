@@ -43,7 +43,7 @@
 #邀请有礼 
 0 10 * * * node /scripts/jd_yqyl.js >> /scripts/logs/jd_yqyl.log 2>&1
 #入口为极速版 百元生活费 赚金币 邀请好友
-0 5 * * * node /scripts/jd_zjb.js >> /scripts/logs/jd_zjb.log 2>&1
+0 5 * * * node /scripts/jd_jszjb.js >> /scripts/logs/jd_jszjb.log 2>&1
 #京喜 领88元红包
 4 10 * * * node /scripts/jx_88lhb.js >> /scripts/logs/jx_88lhb.log 2>&1
 #合肥旗舰店开业
