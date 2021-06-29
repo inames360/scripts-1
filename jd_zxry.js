@@ -1,4 +1,20 @@
+/*
+==========Quantumult X==========
+[task_local]
+#京东宠汪汪
+15 7 * * * jd_joy.js, tag=特物ZX荣耀, enabled=true
 
+============Loon===========
+[Script]
+cron "15 7 * * * " script-path=jd_zxry.js,tag=特物ZX荣耀
+
+============Surge==========
+[Script]
+特物ZX荣耀 = type=cron,cronexp="15 7 * * * ",wake-system=1,timeout=3600,script-path=jd_zxry.js
+
+===============小火箭==========
+特物ZX荣耀 = type=cron,script-path=jd_zxry.js, cronexpr="15 7 * * * ", timeout=3600, enable=true
+*/
 const $ = new Env('柠檬特物ZX荣耀');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 
