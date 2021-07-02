@@ -3,7 +3,7 @@
 
 ##############短期活动##############
 # 东东电竞经理
-15 10 * * * node /scripts/jd_Elecsport.js >> /scripts/logs/jd_mgold.log 2>&1
+15 10 * * * node /scripts/jd_djjl.js >> /scripts/logs/jd_djjl.log 2>&1
 # 天降红包
 30 7 * * * node /scripts/jd_SplitRedPacket.js >> /scripts/logs/jd_SplitRedPacket.log 2>&1
 # 领京豆额外奖励&抢京豆
