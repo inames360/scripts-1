@@ -9,18 +9,15 @@
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ============Quantumultx===============
 [task_local]
-#惊喜牧场
-20 0-23/3 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/star261_jxmc.js, tag=惊喜牧场, img-url=https://github.com/58xinian/icon/raw/master/jdgc.png, enabled=true
-
-================Loon==============
-[Script]
-cron "20 0-23/2 * * *" script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/star261_jxmc.js,tag=惊喜牧场
-
-===============Surge=================
-惊喜牧场 = type=cron,cronexp="20 0-23/2 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/star261_jxmc.js
-
-============小火箭=========
-惊喜牧场 = type=cron,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/star261_jxmc.js, cronexpr="20 0-23/2 * * *", timeout=3600, enable=true
+ #东东电竞经理
+ 40 0-23/2 * * * jx_mc.js, tag=惊喜牧场, img-url=https://raw.githubusercontent.com/JDHelloWorld/jd_scripts/main/icon/jd_EsportsManager.png, enabled=true
+ =========================Loon=============================
+ [Script]
+ cron "40 0-23/2 * * *" script-path=jx_mc.js,tag=惊喜牧场
+ =========================Surge============================
+ 惊喜牧场 = type=cron,cronexp="40 0-23/2 * * *",wake-system=1,timeout=3600,script-path=jx_mc.js
+ =========================小火箭===========================
+惊喜牧场 = type=cron,script-path=jx_mc.js, cronexpr="40 0-23/2 * * *", timeout=3600, enable=true
  */
 // prettier-ignore
 !function (t, r) { "object" == typeof exports ? module.exports = exports = r() : "function" == typeof define && define.amd ? define([], r) : t.CryptoJS = r() }(this, function () {
